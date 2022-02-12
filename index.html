@@ -4,10 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Password Generator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:wght@800&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  #
-  <body></body>
-  #
+
+  <body>
+    <div class="mainDiv">
+      <div class="text">
+        <h1>Generate a <span class="blueText">random password</span></h1>
+        <h2>Never use an insecure password again.</h2>
+      </div>
+
+      <button onclick="log()">
+        <img width="14px" height="18px" src="icons/Icon.png" alt="" />
+        <p class="buttonText">Generate passwords</p>
+      </button>
+
+      <hr />
+
+      <div class="containers">
+        <div class="container">
+          <img
+            width="20"
+            height="5"
+            src="icons/Icon2.png"
+            alt=""
+            id="image-1"
+          />
+          <p id="password-1"></p>
+        </div>
+        <div class="container">
+          <img
+            width="20"
+            height="5"
+            src="icons/Icon2.png"
+            alt=""
+            id="image-2"
+          />
+          <p id="password-2"></p>
+        </div>
+        <div class="container">
+          <img
+            width="20"
+            height="5"
+            src="icons/Icon2.png"
+            alt=""
+            id="image-3"
+          />
+          <p id="password-3"></p>
+        </div>
+        <div class="container">
+          <img
+            width="20"
+            height="5"
+            src="icons/Icon2.png"
+            alt=""
+            id="image-4"
+          />
+          <p id="password-4"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+
   <script src="index.js"></script>
 </html>
